@@ -195,4 +195,12 @@ void Entity_MakeNull(entity_t* e) { NULL; };
 void Spawn_NewEntity(entity_t* e) { e = new entity_t; };
 void Spawn();
 
+/*
+ %file stuff%
+*/
+void Save();
+void Open();
+void SaveAs();
+void Close();
+
 #endif
