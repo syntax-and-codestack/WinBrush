@@ -58,6 +58,8 @@ void Brush_SetCount(brush_t* b, const char* key, int* _t);
 void Brush_DrawXY( brush_t * b, int nview );
 void Brush(brush_t* b);
 
+bool bBrush_MadeNode;
+
 const char* Brush_Name( brush_t* b );
 
 //printf
@@ -74,6 +76,14 @@ void Brush_Owner(brush_t* b);
 void Brush_Next(brush_t* b);
 
 void Brush_MakePatch(brush_t* b);
+
+struct epair_t {
+	const char* key;
+	const char* value;
+	brush_t* brush;
+	entity_t* entity;
+	model_t* model;
+};
 
 //void Photoshop_Import(const char * port);
 
