@@ -48,6 +48,8 @@ typedef struct brush_s {
 	int faces[6];
 	brush_t * brush_faces[6];
 
+	vec3_t origin;
+
 	texdef_t* tdef;
 
 }brush_t;

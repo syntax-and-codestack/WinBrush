@@ -19,3 +19,10 @@ const char* MapFile_Extension() {
 const char* Map_FileName() {
 	return pMapName;
 }
+
+FILE* MapFile;
+
+void WINAPI Map_ParseBrushInfo(static char cBuff) 
+{
+	fprintf( MapFile, "%p, %f, %f, %i", active_brushes.brush_faces, active_brushes.maxs, active_brushes.mins, active_brushes.origin, active_brushes.numberid );
+}
