@@ -10,7 +10,7 @@ int g_nXYModels = 0;
 
 #include "xywnd.h"
 
-void XYWnd( ) 
+XYWnd::XYWnd( )
 {
 	g_nXYMouseClicks;
 	g_nXYBrushes = XYView().xy_brushes.numberid;
@@ -19,7 +19,7 @@ void XYWnd( )
 	g_nXYModels = XYView().xy_models.mdlnumberid;
 }
 
-std::list<xywnd_t>XYBrushList( brush_t * b ) {
+std::list<XYWnd>XYBrushList( brush_t * b ) {
 			if ( g_qeglobals.m_bBrushPrimitiveMode ? true : false )
 			{
 					XYBrushList(b).begin();
@@ -36,7 +36,7 @@ std::list<xywnd_t>XYBrushList( brush_t * b ) {
 			}
 }
 
-void XYBegin() 
+void XYWnd::XYBegin() 
 {
 			if ( g_qeguiglobals.m_GridWnd && nViewAxis == XYVIEW )
 			{

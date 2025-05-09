@@ -5,14 +5,17 @@
 
 #include "stdafx.h"
 
-struct xywnd_t {
+class XYWnd {
+public:
+	XYWnd();
+	~XYWnd();
 	int columns;
 	int rows;
 	int blocks;
 
-	bool xyMouse_Dragged( xywnd_t *& xywnd );
-	void XYWNDRectangle( RECT& pRect, xywnd_t * wnd );
-	void XYWnd();
+	bool xyMouse_Dragged( XYWnd *& xywnd );
+	void XYWNDRectangle( RECT& pRect, XYWnd* wnd );
+	void XYBegin();
 
 	brush_t xy_brushes;
 	plane_t xy_planes;
@@ -22,11 +25,10 @@ struct xywnd_t {
 
 };
 
-xywnd_t* AddToView();
-xywnd_t XYView();
+XYWnd* AddToView();
+XYWnd XYView();
 
-void XYBegin();
 
-std::list<xywnd_t>XYBrushList(brush_t* b);
+std::list<XYWnd>XYBrushList(brush_t* b);
 
 #endif
