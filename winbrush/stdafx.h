@@ -191,6 +191,7 @@ typedef struct entity_s {
 	bool pDrag;
 	bool pSpawn;
 	int entnumberid;
+	entity_t* pEntity;
 }entity_t;
 
 void Entity_MakeNull(entity_t* e) { NULL; };

@@ -22,7 +22,12 @@ const char* Map_FileName() {
 
 FILE* MapFile;
 
-void WINAPI Map_ParseBrushInfo(static char cBuff) 
+void WINAPI Map_ParseBrushInfo( ) 
 {
 	fprintf( MapFile, "%p, %f, %f, %i", active_brushes.brush_faces, active_brushes.maxs, active_brushes.mins, active_brushes.origin, active_brushes.numberid );
+}
+
+void WINAPI Map_ParseEntityInfo( )
+{
+	fprintf( MapFile, "%p, %f, %c, %c, %i", active_entities.pEntity, active_entities.pPosition, active_entities.pKey, active_entities.pValue, active_entities.entnumberid );
 }
