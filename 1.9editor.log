@@ -1,0 +1,138 @@
+﻿  brush.cpp
+  stdafx.cpp
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(44,9): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(44,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(44,32): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(48,10): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(48,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(48,16): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(87,9): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(87,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(87,14): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(150,37): error C2061: syntax error: identifier 'face_t'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(169,8): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(169,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(169,20): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(171,19): error C2061: syntax error: identifier 'face_t'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(172,12): error C2065: 'f': undeclared identifier
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(172,3): error C2541: 'delete': cannot delete objects that are not pointers
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\brushtoolz\brushtool.h(8,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\brushtoolz\brushtool.h(8,11): error C2146: syntax error: missing ';' before identifier 'SignalBrush'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\brushtoolz\brushtool.h(21,13): error C2065: 'SignalBrush': undeclared identifier
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\brushtoolz\brushtool.h(23,33): error C2061: syntax error: identifier 'BrushNode'
+  (compiling source file 'brush.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\brush.cpp(39,5): error C2039: 'prev': is not a member of 'brush_s'
+      C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(41,16):
+      see declaration of 'brush_s'
+  
+C:\Users\Hunter\source\repos\1.9editor\brush.cpp(43,5): error C2039: 'owner': is not a member of 'brush_s'
+      C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(41,16):
+      see declaration of 'brush_s'
+  
+C:\Users\Hunter\source\repos\1.9editor\brush.cpp(47,5): error C2039: 'next': is not a member of 'brush_s'
+      C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(41,16):
+      see declaration of 'brush_s'
+  
+C:\Users\Hunter\source\repos\1.9editor\brush.cpp(66,7): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  xywnd.cpp
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(44,9): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(44,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(44,32): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(48,10): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(48,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(48,16): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(87,9): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(87,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(87,14): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(150,37): error C2061: syntax error: identifier 'face_t'
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(169,8): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(169,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(169,20): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(171,19): error C2061: syntax error: identifier 'face_t'
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(172,12): error C2065: 'f': undeclared identifier
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(172,3): error C2541: 'delete': cannot delete objects that are not pointers
+  (compiling source file 'source/xywnd.cpp')
+  
+C:\Users\Hunter\source\repos\1.9editor\source\xywnd.cpp(23,29): error C2039: 'next': is not a member of 'brush_s'
+      C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(41,16):
+      see declaration of 'brush_s'
+  
+C:\Users\Hunter\source\repos\1.9editor\source\xywnd.cpp(23,60): error C2039: 'owner': is not a member of 'brush_s'
+      C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(41,16):
+      see declaration of 'brush_s'
+  
+C:\Users\Hunter\source\repos\1.9editor\source\xywnd.cpp(23,92): error C2039: 'prev': is not a member of 'brush_s'
+      C:\Users\Hunter\source\repos\1.9editor\source\stdafx.h(41,16):
+      see declaration of 'brush_s'
+  
+C:\Users\Hunter\source\repos\1.9editor\source\xywnd.cpp(23,115): error C2059: syntax error: ';'
+  Generating Code...
