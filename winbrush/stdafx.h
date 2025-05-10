@@ -48,6 +48,9 @@ typedef struct brush_s {
 	int faces[6];
 	brush_t * brush_faces[6];
 
+	const char* bKey;
+	const char* bValue;
+
 	vec3_t origin;
 
 	texdef_t* tdef;
@@ -75,6 +78,8 @@ void Brush_Previous(brush_t* b);
 void Brush_Owner(brush_t* b);
 void Brush_Next(brush_t* b);
 
+const char* Brush_NodeEpair(brush_t* node, epair_t* epair);
+
 void Brush_MakePatch(brush_t* b);
 
 struct epair_t {
@@ -83,6 +88,14 @@ struct epair_t {
 	brush_t* brush;
 	entity_t* entity;
 	model_t* model;
+};
+
+struct node_t {
+	enum {
+		m_PathNode,
+		m_AiNode,
+		m_LightNode
+	}
 };
 
 //void Photoshop_Import(const char * port);
@@ -116,7 +129,7 @@ bool SelectPlane(plane_t* p);
 
 typedef struct model_s {
 	int VERTICE_COUNT;
-	int mdlnumberid
+	int mdlnumberid;
 	const char* mdl_file;
 }model_t;
 
