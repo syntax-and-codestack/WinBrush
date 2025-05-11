@@ -53,6 +53,8 @@ typedef struct brush_s {
 
 	vec3_t origin;
 
+	brush_t* brush(brush_t* b);
+
 	texdef_t* tdef;
 
 }brush_t;
@@ -142,7 +144,7 @@ typedef struct texdef_s {
 
 	const char* texdef_file;
 
-	vec3_t coords[2][2];
+	vec3_t coords[3][3];
 
 }texdef_t;
 
@@ -228,5 +230,13 @@ void Save();
 void Open();
 void SaveAs();
 void Close();
+
+//this stuff references...
+brush_t* thisb;
+face_t* thisf;
+plane_t* thisp;
+texdef_t* thistex;
+patch_t* thispatch;
+entity_t* thisent;
 
 #endif

@@ -42,9 +42,9 @@ void XYWnd::XYBegin()
 			{
 								for ( int i = 0; i >= 0; i++ )
 								{
-										glBegin( AddToView()->blocks );
-										glBegin( AddToView()->columns );
-										glBegin( AddToView()->rows );
+										glBegin( AddToView( )->blocks );
+										glBegin( AddToView( )->columns );
+										glBegin( AddToView( )->rows );
 								}
 			}
 }
